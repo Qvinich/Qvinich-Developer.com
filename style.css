@@ -182,9 +182,9 @@ h3 {
 }
 
 
-@media screen and (max-width: 991.98px) {
+@media all and (max-width: 500px) {
     .wrapper {
-        width: 90%;
+        width: 130%;
     }
 
     .logo a {
