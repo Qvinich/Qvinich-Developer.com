@@ -158,11 +158,6 @@ p {
     padding: 50px 0px 50px 0px;
 }
 
-#about{
-    background: darkcyan;
-    padding: 50px 0px 50px 0px;
-}
-
 .footer {
     width: 100%;
     position: relative;
@@ -186,16 +181,10 @@ h3 {
     line-height: 50px;
 }
 
-#copyright {
-    text-align: center;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 50px;
-}
 
-@media screen and (max-width: 991.98px) {
+@media all and (max-width: 500px) {
     .wrapper {
-        width: 90%;
+        width: 130%;
     }
 
     .logo a {
@@ -226,11 +215,5 @@ h3 {
 
     section img {
         display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .kartu-game {
-        width: 50%;
     }
 }
