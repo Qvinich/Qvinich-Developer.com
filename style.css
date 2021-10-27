@@ -215,5 +215,7 @@ h3 {
 
     section img {
         display: block;
+        width: 100%;
+        height: auto;
     }
 }
